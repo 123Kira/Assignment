@@ -7,7 +7,7 @@ public class Armstrong {
         while (n > 0) {
             a = n % 10;
             n = n / 10;
-            c = c + (a * a * a);
+            c = c + (a * a * b);
         }
         if (temp == c)
             System.out.println("Armstrong Number");
